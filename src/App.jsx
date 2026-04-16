@@ -1,8 +1,8 @@
-import { useEffect, useRef, useState } from "react";
+import React from 'react';
 import Home from "./pages/Home";
 
 function App() {
-  const [inputValue ,setlnputValue]=useState('')
+  // const [inputValue ,setlnputValue]=useState('')
   const count=useRef(0)
   const text =useRef();
   console.log(text.current)
