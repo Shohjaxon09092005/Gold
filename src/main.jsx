@@ -1,0 +1,22 @@
+import React from 'react'
+
+export default function  React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+
+const container = document.getElementById("root");
+if (!container) throw new Error("Root elementi topilmadi!");
+
+const root = ReactDOM.createRoot(container);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
